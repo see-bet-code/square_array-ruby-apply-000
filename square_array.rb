@@ -9,5 +9,7 @@ def square_array(array)
   #  squares
   #end
 
-  array.collect{ |e| e**2 }
+  #array.collect{ |e| e**2 }
+
+  array.map.with_index {|e| e**2 }
 end
